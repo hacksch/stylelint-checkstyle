@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-checkstyle-export",
+  "version": "1.0.0",
+  "description": "Checkstyle exporter for stylelint and postCss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacksch/stylelint-checkstyle-export.git"
+  },
+  "dependencies": {
+    "lodash": "^3.0.0",
+    "fs-promise": "^0.5.0",
+    "gulp-util": "^3.0.7",
+    "mkdirp-promise": "^1.0.3"
+  },
+  "keywords": [
+    "stylelint",
+    "checkstyle",
+    "postcss",
+    "jenkins",
+    "xml"
+  ],
+  "author": "Martin <martin.tepper@aoe.com> (http://www.dev-mt.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacksch/stylelint-checkstyle-export/issues"
+  },
+  "homepage": "https://github.com/hacksch/stylelint-checkstyle-export#readme"
+}
