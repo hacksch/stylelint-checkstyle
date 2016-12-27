@@ -8,7 +8,7 @@ var _ = require('lodash');
 var checkstyleVersion = '4.3'; // Why? Because that's what ESLint uses, I suppose
 
 module.exports = function(css, stylelintResults) {
-  const outputFile = path.resolve(process.cwd(), 'stylelint-checkstyle-report.xml');
+  const outputFile = path.resolve(process.cwd(), 'reports/stylelint-checkstyle-report.xml');
   const outputDir = path.dirname(outputFile);
   
   var results = {};
