@@ -1,6 +1,6 @@
 {
   "name": "stylelint-checkstyle-export",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Checkstyle exporter for stylelint and postCss",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   "dependencies": {
     "lodash": ">=4.17.11",
     "fs-promise": "^0.5.0",
-    "gulp-util": "^3.0.7",
-    "mkdirp-promise": "^1.0.3"
+    "mkdirp-promise": "^1.0.3",
+	"mkdirp": "^0.5.0"
   },
   "keywords": [
     "stylelint",
